@@ -117,3 +117,6 @@ dist
 
 node_modules
 package-lock.json
+
+videos
+uploads
