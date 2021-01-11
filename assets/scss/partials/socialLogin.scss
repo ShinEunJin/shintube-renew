@@ -15,24 +15,30 @@
             margin-bottom: 15px;
         }
 
-        span {
+        img {
             margin-right: 10px;
-            font-size: 20px;
+            width: 30px;
+            height: 30px;
         }
     }
 
     .social-login--google {
-        background-color: blueviolet;
+        background-color: rgb(31, 54, 82);
         color: white;
     }
 
-    .social-login--github {
-        background-color: $black;
-        color: white;
+    .social-login--kakao {
+        background-color: rgb(249, 224, 0);
+        color: black;
     }
 
     .social-login--facebook {
-        background-color: #3a5998;
+        background-color: rgb(55, 93, 172);
+        color: white;
+    }
+
+    .social-login--naver {
+        background-color: rgb(1, 199, 60);
         color: white;
     }
 }
