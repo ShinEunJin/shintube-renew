@@ -1,0 +1,26 @@
+.u-avatar {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(197, 176, 176);
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.u-avatar-basic {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(197, 176, 176);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+}
+
+.u-avatar-in-header {
+    height: 25px;
+    width: 25px;
+    font-size: 15px;
+}

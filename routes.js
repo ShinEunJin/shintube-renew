@@ -5,18 +5,30 @@ const LOGIN = "/login";
 const LOGOUT = "/logout";
 const SEARCH = "/search";
 
-//Users
+// Users
 const USERS = "/users";
 const USER_DETAIL = "/:id";
 const EDIT_PROFILE = "/edit-profile";
 const CHANGE_PASSWORD = "/change-password";
+const ME = "/me";
 
-//Videos
+// Videos
 const VIDEOS = "/videos";
 const UPLOAD = "/upload";
 const VIDEO_DETAIL = "/:id";
 const EDIT_VIDEO = "/:id/edit";
 const DELETE_VIDEO = "/:id/delete";
+
+// SocialLogin
+const NAVER = "/auth/naver";
+const NAVER_CALLBACK = "/auth/naver/callback";
+const KAKAO = "/oauth/kakao";
+const KAKAO_CALLBACK = "/oauth/kakao/callback";
+
+//API
+const API = "/api";
+const REGISTER_VIEW = "/:id/view";
+const ADD_COMMENT = "/:id/comment";
 
 const routes = {
     home: HOME,
@@ -56,7 +68,15 @@ const routes = {
         } else {
             return DELETE_VIDEO;
         }
-    }
+    },
+    naver: NAVER,
+    naverCallback: NAVER_CALLBACK,
+    kakao: KAKAO,
+    kakaoCallback: KAKAO_CALLBACK,
+    me: ME,
+    api: API,
+    registerView: REGISTER_VIEW,
+    addComment: ADD_COMMENT
 };
 
 export default routes

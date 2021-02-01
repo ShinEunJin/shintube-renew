@@ -8,7 +8,7 @@ header.header
                 input(type="text", placeholder="Search by term...", name="term")
         .header__column
             ul
-                if !user.isAuthenticated
+                if !loggedUser
                     li
                         a(href=routes.join) Join
                     li
@@ -17,6 +17,11 @@ header.header
                     li
                         a(href=`/videos${routes.upload}`) Upload
                     li
-                        a(href=routes.userDetail(user.id)) Profile
+                        if loggedUser.avatarUrl
+                            a(href=routes.me)
+                                img.u-avatar.u-avatar-in-header(src=`/${loggedUser.avatarUrl}`)
+                        if !loggedUser.avatarUrl
+                            a(href=routes.me)
+                                .u-avatar-basic.u-avatar-in-header=loggedUser.name[0]
                     li
                         a(href=routes.logout) Log Out

@@ -31,9 +31,11 @@
 
             ul {
                 display: flex;
+                align-items: center;
                 color: white;
                 font-weight: 600;
                 text-transform: uppercase;
+                font-size: 13px;
 
                 li {
                     &:not(:last-child) {
