@@ -145,6 +145,3 @@ export const postAddComment = async (req, res) => {
     }
 }
 
-export const deleteComment = async (req, res) => {
-
-}
