@@ -1,78 +1,69 @@
 .social-login {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-
-    button {
-        width: 100%;
-        max-width: 320px;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
+        width: 100%;
 
-        a {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        button {
+                width: 100%;
+                max-width: 320px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
 
-            img {
-                margin-right: 10px;
-                width: 30px;
-                height: 30px;
-            }
+                a {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        img {
+                                margin-right: 10px;
+                                width: 30px;
+                                height: 30px;
+                        }
+                }
+
+                &:not(:last-child) {
+                        margin-bottom: 15px;
+
+                        img {
+                                margin-right: 10px;
+                                width: 30px;
+                                height: 30px;
+                        }
+                }
+
+
+                .social-login--google {
+                        background-color: rgb(31, 54, 82);
+                        color: white;
+                }
+
+                .social-login--kakao {
+                        background-color: rgb(249, 224, 0);
+
+                        span {
+                                color: black;
+                        }
+
+                        color: black;
+                        color: black;
+                }
+
+                .social-login--facebook {
+                        background-color: rgb(55, 93, 172);
+                        color: white;
+                        color: white;
+                }
+
+                .social-login--naver {
+                        background-color: rgb(1, 199, 60);
+
+                        span {
+                                color: white;
+                        }
+
+                        color: white;
+                }
         }
-
-<<<<<<< HEAD
-        &:not(:last-child) {
-            margin-bottom: 15px;
-=======
-        img {
-            margin-right: 10px;
-            width: 30px;
-            height: 30px;
->>>>>>> dd72cd5034bf7c6e804ec6d4a70a0fbbfc0e20fd
-        }
-    }
-
-
-    .social-login--google {
-        background-color: rgb(31, 54, 82);
-<<<<<<< HEAD
-=======
-        color: white;
->>>>>>> dd72cd5034bf7c6e804ec6d4a70a0fbbfc0e20fd
-    }
-
-    .social-login--kakao {
-        background-color: rgb(249, 224, 0);
-<<<<<<< HEAD
-
-        span {
-            color: black;
-        }
-=======
-        color: black;
->>>>>>> dd72cd5034bf7c6e804ec6d4a70a0fbbfc0e20fd
-    }
-
-    .social-login--facebook {
-        background-color: rgb(55, 93, 172);
-<<<<<<< HEAD
-=======
-        color: white;
->>>>>>> dd72cd5034bf7c6e804ec6d4a70a0fbbfc0e20fd
-    }
-
-    .social-login--naver {
-        background-color: rgb(1, 199, 60);
-<<<<<<< HEAD
-
-        span {
-            color: white;
-        }
-=======
-        color: white;
->>>>>>> dd72cd5034bf7c6e804ec6d4a70a0fbbfc0e20fd
-    }
 }

@@ -21,6 +21,8 @@ const UserSchema = new mongoose.Schema({
             ref: "Video"
         }
     ],
+    facebookID: Number,
+    naverID: Number
 })
 
 UserSchema.plugin(passportLocalMongoose, { usernameField: "email" });
